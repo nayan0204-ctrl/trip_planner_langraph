@@ -7,8 +7,6 @@ This project is an AI-powered travel planner that generates:
 - ✅ Current weather summary
 - ✅ Workflow orchestration using LangGraph
 
-Runs directly in **Google Colab (CPU)** — no Streamlit, no GPU required.
-
 ---
 
 ## 🚀 Features
@@ -82,31 +80,11 @@ print(result["weather"])
 
 ---
 
-## ⏱ Performance
-
-CPU execution:
-
-Model load ~30s  
-Generation ~20–40s  
-
-Normal for TinyLlama.
-
----
-
 ## ✅ Why LangGraph?
 
 - Deterministic workflows
 - Tool chaining
 - Easy extension (RAG, agents)
-
----
-
-## 🛠 Future Work
-
-- 3-day forecast tables
-- Maps
-- Vector DB
-- Mistral / Llama3
 
 ---
 
